@@ -40,7 +40,7 @@ def stepOneTwo(lfsr,tapped_bit,key):
         if len(tapped_bit)==4:
             resultXorLfsr = ((lfsr[tapped_bit[3]] ^  lfsr[tapped_bit[2]]) ^ lfsr[tapped_bit[1]]) ^  lfsr[tapped_bit[0]]
         else:
-            resultXorLfsr = lfsr[tapped_bit[1]]) ^  lfsr[tapped_bit[0]]
+            resultXorLfsr = lfsr[tapped_bit[1]] ^  lfsr[tapped_bit[0]]
 
         resultFinal = key[num] ^ resultXorLfsr
         lfsr = lfsr.rotate(1)
