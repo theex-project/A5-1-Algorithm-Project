@@ -220,7 +220,7 @@ lfsr3 = clocking(lfsr3, tappedBit("lfsr3"), frameCounter)
 print "Irregular clocking (part2) result on lfsr 3 : "+''.join(lfsr3)
 print "\nKey Stream : "+keyStream
 keyStream = list(keyStream)
-print "\nPlain Text : "+plainText
+print "\nPlain Text : "+''.join(plainText)
 time.sleep(3)
 print "\nFinal Step\n"
 
