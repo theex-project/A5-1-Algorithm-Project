@@ -3,6 +3,8 @@ A5/1 Algorithm Projects
 This repository is used in Final Project of Information Security subject.
 Each project managed by The-ex.org
 
+You can download the A5/1 algorithm documentation [here](https://www.dropbox.com/s/zb0d4nuhhefw8k5/ppt%20kemkom_fix.pptx?dl=0)
+
 ### License
 
 This software is licensed under the MIT License.
