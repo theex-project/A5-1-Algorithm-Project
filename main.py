@@ -23,7 +23,7 @@ def tappedBit(shift_register):
     elif (shift_register=="lfsr2"):
         result = [20,21]
     elif (shift_register=="lfsr3"):
-        result = [7,20,21,6]
+        result = [7,20,21,22]
     else:
         print "Access Denied!"
 
